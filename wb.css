@@ -2,17 +2,20 @@
 	color: white;
 }
 header {
+	padding : 2px 10px 5px;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 }
 body {
 	background-color: #222222;
 }
 .bg
 {
-	background-color: rgba(106, 0, 255,0.7);
+	background-color: rgba(100, 0, 255,0.7);
+	border-style: solid;
 	border-radius: 10px;
-	padding: 2px 5px;
+	border-color: rgb(0,200,255);
+	padding: 2px 15px;
 	margin: 20px;
 }
 .bg p {
@@ -25,4 +28,7 @@ ul
 ol
 {
 	list-style: lower-alpha;
+}
+li hover {
+	cursor: pointer;
 }
